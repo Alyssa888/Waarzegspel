@@ -1,0 +1,117 @@
+body {
+
+  background-image: url(../images/background2.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  position: relative;
+  color: white;
+  height: 100vh;
+  background-size: cover;
+}
+
+/* Bron: https://www.nobledesktop.com/learn/web-design/full-screen-backgrounds-viewport-sizing-units-vh-vw en https://developer.mozilla.org/en-US/docs/Web/CSS/background-size, background positioneren */
+
+h1 {
+  text-align: center;
+  font-family: Papyrus, sans-serif;
+
+}
+
+button {
+  margin: 0.5em;
+  color: white;
+  background-color: #FF1493;
+  border-radius: 1em;
+  padding: 1em;
+  border: none;
+  position: relative;
+  top: 5em;
+  left: 34em;
+
+}
+
+/* Bron: https://stackoverflow.com/questions/11497094/remove-border-from-buttons, border weghalen */
+
+
+button:hover {
+  background-color: #b300b3;
+}
+
+/* Bron: https://www.shecodes.io/athena/42970-how-to-add-a-hover-effect-to-a-button-in-html, hover */
+
+.waarzegster {
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+
+}
+
+/* Bron: https://www.freecodecamp.org/news/how-to-center-an-image-in-css/, afbeelding centreren */
+
+.hearts {
+  width: 11em;
+  height: 14em;
+  position: relative;
+  left: 0.8em;
+  bottom: 12em;
+
+
+}
+
+.potion {
+  width: 7em;
+  height: 7em;
+  position: relative;
+  left: 0.3em;
+  bottom: 20em;
+}
+
+.glitter {
+  width: 25em;
+  height: 15em;
+  position: relative;
+  left: 1em;
+  bottom: 14em;
+}
+
+
+.hidden {
+  display: none;
+}
+
+#timeImage {
+  width: 15em;
+  height: 15em;
+  position: absolute;
+  top: 4em;
+  left: 13em;
+}
+
+p {
+  font-family: Didot, sans-serif;
+  font-size: 1.4em;
+}
+
+#drankjebericht {
+  position: absolute;
+  left: 18em;
+  bottom: 7em;
+}
+
+#toekomstbericht {
+  position: absolute;
+  left: 24.5em;
+  bottom: 7em;
+}
+
+#liefdebericht {
+  position: absolute;
+  left: 22em;
+  top: 25em;
+
+}
+
+/* Bron: Janno:position absolute, relative, top, bottom, left, right. */
